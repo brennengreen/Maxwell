@@ -24,7 +24,7 @@
     <ProjectGuid>{04d38775-da1b-4925-932b-568eb2c2c4b7}</ProjectGuid>
     <RootNamespace>OpenGLBase</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Teapot</ProjectName>
+    <ProjectName>Maxwell</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -167,9 +167,8 @@
     <ClCompile Include="imgui_widgets.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="stb_image.cpp" />
-    <ClCompile Include="Teapot.cpp" />
+    <ClCompile Include="Maxwell.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
@@ -185,7 +184,7 @@
     <ClInclude Include="Input.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />
-    <ClInclude Include="Teapot.h" />
+    <ClInclude Include="Maxwell.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

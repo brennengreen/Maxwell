@@ -1,4 +1,4 @@
-#include "Teapot.h"
+#include "Maxwell.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -42,7 +42,7 @@ void Maxwell::_init_imgui()
 	ImGuiIO& io = ImGui::GetIO(); (void)io;
 	ImGui::StyleColorsDark();
 	ImGui_ImplGlfw_InitForOpenGL(Application::GetWindow(), true);
-	ImGui_ImplOpenGL3_Init("#version 330 core");
+	ImGui_ImplOpenGL3_Init("#version 460 core");
 }
 
 

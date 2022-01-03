@@ -1,4 +1,4 @@
-#include "Teapot.h"
+#include "Maxwell.h"
 #include "Application.h"
 
 
