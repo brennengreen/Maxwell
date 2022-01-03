@@ -1,8 +1,5 @@
-// openGL
 #include <glad/glad.h>
 
-// glfw
-#include <GLFW/glfw3.h>
 
 // glm
 #include <glm/glm.hpp>
@@ -11,21 +8,26 @@
 #include <glm/gtx/rotate_vector.hpp>
 #include <glm/gtx/vector_angle.hpp>
 
-// imgui
-#include <imgui.h>
-#include <imgui_impl_glfw.h>
-#include <imgui_impl_opengl3.h>
-
-// json
-// pass
-
 // stb
 #include <stb_image.h>
 
 // std
 #include <iostream>
 
+#include "Renderer.h"
+#include "Application.h"
+
 int main() {
-	std::cout << "All files included successfully." << std::endl;
+	
+	std::cout << " -- Starting Maxwell -- " << std::endl;
+
+	Application::Init();
+
+	Renderer mw{};
+	mw.Draw();
+
+	Application::Terminate();
+
+	std::cout << " -- End Maxwell Output -- " << std::endl;
 	return 0;
 }
